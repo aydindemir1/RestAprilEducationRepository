@@ -15,4 +15,9 @@
     <Folder Include="Models\Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RestAprilEducationRepository.Application\RestAprilEducationRepository.Application.csproj" />
+    <ProjectReference Include="..\RestAprilEducationRepository.Persistence\RestAprilEducationRepository.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
