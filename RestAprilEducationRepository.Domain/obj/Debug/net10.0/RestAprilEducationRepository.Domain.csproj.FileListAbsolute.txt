@@ -1,0 +1,11 @@
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\bin\Debug\net10.0\RestAprilEducationRepository.Domain.deps.json
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\bin\Debug\net10.0\RestAprilEducationRepository.Domain.dll
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\bin\Debug\net10.0\RestAprilEducationRepository.Domain.pdb
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\RestAprilEducationRepository.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\RestAprilEducationRepository.Domain.AssemblyInfoInputs.cache
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\RestAprilEducationRepository.Domain.AssemblyInfo.cs
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\RestAprilEducationRepository.Domain.csproj.CoreCompileInputs.cache
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\RestAprilEducationRepository.Domain.dll
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\refint\RestAprilEducationRepository.Domain.dll
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\RestAprilEducationRepository.Domain.pdb
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Domain\obj\Debug\net10.0\ref\RestAprilEducationRepository.Domain.dll
