@@ -8,6 +8,7 @@ C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Deb
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Debug\net10.0\RestAprilEducationRepository.Application.AssemblyInfoInputs.cache
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Debug\net10.0\RestAprilEducationRepository.Application.AssemblyInfo.cs
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Debug\net10.0\RestAprilEducationRepository.Application.csproj.CoreCompileInputs.cache
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Debug\net10.0\RestAprilEducationRepository.Application.sourcelink.json
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Debug\net10.0\RestApri.8BD05795.Up2Date
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Debug\net10.0\RestAprilEducationRepository.Application.dll
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Application\obj\Debug\net10.0\refint\RestAprilEducationRepository.Application.dll

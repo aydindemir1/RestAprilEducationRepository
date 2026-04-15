@@ -10,6 +10,7 @@ C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Deb
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Debug\net10.0\RestAprilEducationRepository.Persistence.AssemblyInfoInputs.cache
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Debug\net10.0\RestAprilEducationRepository.Persistence.AssemblyInfo.cs
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Debug\net10.0\RestAprilEducationRepository.Persistence.csproj.CoreCompileInputs.cache
+C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Debug\net10.0\RestAprilEducationRepository.Persistence.sourcelink.json
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Debug\net10.0\RestApri.EBF7065E.Up2Date
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Debug\net10.0\RestAprilEducationRepository.Persistence.dll
 C:\RestAprilEducationRepository\RestAprilEducationRepository.Persistence\obj\Debug\net10.0\refint\RestAprilEducationRepository.Persistence.dll

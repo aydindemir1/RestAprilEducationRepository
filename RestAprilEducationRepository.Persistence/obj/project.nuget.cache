@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6uvoUwv9LtE=",
+  "dgSpecHash": "0NJohJSk84g=",
   "success": true,
   "projectFilePath": "C:\\RestAprilEducationRepository\\RestAprilEducationRepository.Persistence\\RestAprilEducationRepository.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aydin\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\aydin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\aydin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

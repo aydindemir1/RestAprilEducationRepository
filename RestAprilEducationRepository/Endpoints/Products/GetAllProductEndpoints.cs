@@ -18,18 +18,4 @@ namespace RestAprilEducationRepository.API.Endpoints.Products
             return group;
         }
     }
-
-    public static class GetAllWithPagedProductEndpoints
-    {
-        // GET api/products
-        public static RouteGroupBuilder AddGetAllWithPagedProductEndpoint(this RouteGroupBuilder group)
-        {
-            group.MapGet("/{pageNumber}/{pageSize}",
-                async ([FromRoute] int pageNumber, [FromRoute] int pageSize,
-                        [FromServices] IProductsApplication productsApplication) =>
-                    (await productsApplication.GetAll()).ToResult());
-
-            return group;
-        }
-    }
 }
