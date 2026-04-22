@@ -1,6 +1,9 @@
 
 using FluentValidation;
+using RestAprilEducationRepository.API.Endpoints.ExceptionHandlerExample;
 using RestAprilEducationRepository.API.Endpoints.Products;
+using RestAprilEducationRepository.API.Endpoints.Versioning;
+using RestAprilEducationRepository.API.ExceptionsHandlers;
 using RestAprilEducationRepository.API.Extensions;
 using RestAprilEducationRepository.Application;
 using RestAprilEducationRepository.Application.Products;
@@ -34,11 +37,25 @@ builder.Services.AddRepositoriesExt();
 
 builder.Services.AddValidatorsFromAssemblyContaining<ApplicationAssembly>();
 builder.Services.AddVersioningExt();
+
+
+
+
+builder.Services.AddExceptionHandler<UserFriendlyExceptionHandler>().AddExceptionHandler<BusinessExceptionHandler>()
+    .AddExceptionHandler<GlobalExceptionHandler>();
+
+
+
 var app = builder.Build();
 
+app.UseExceptionHandler(options => { });
 
 app.AddProductEndpoints(app.AddVersionSetExt());
+app.AddVersionExampleEndpoints(app.AddVersionSetExt());
 app.AddVersionSetExt();
+
+app.AddExceptionHandlerExampleEndpoint();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

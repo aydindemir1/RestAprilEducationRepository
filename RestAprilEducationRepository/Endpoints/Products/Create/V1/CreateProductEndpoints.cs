@@ -4,7 +4,7 @@ using RestAprilEducationRepository.Application;
 using RestAprilEducationRepository.Application.Products;
 using RestAprilEducationRepository.Application.Products.Create;
 
-namespace RestAprilEducationRepository.API.Endpoints.Products
+namespace RestAprilEducationRepository.API.Endpoints.Products.Create.V1
 {
     public static class CreateProductEndpoints
     {
