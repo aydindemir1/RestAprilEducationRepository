@@ -27,12 +27,12 @@ namespace RestAprilEducationRepository.API.Metrics
 
 
             OrdersCreated = _meter.CreateCounter<int>(
-                name: "orders.created",
+                name: "orders.created5",
                 unit: "{order}",
                 description: "Şimdiye kadar oluşturulan toplam sipariş sayısı (sürekli artar).");
 
             ActiveConnections = _meter.CreateUpDownCounter<int>(
-                name: "active.connections",
+                name: "active.connections5",
                 unit: "{connection}",
                 description: "Anlık aktif bağlantı sayısı (artabilir veya azalabilir).");
         }

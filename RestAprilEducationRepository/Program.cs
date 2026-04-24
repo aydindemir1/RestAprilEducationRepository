@@ -16,28 +16,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
 
-
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-//DI Container Framework ( Library ) IoC Container Framework
-
-//  DI+ IoC =>  DI Pattern
-
-//Singleton
-//Scoped
-//Transient
-//builder.Services.AddSingleton<CalculateService>();
 
 // Transient > Scoped > Singleton
 builder.Services.AddSingleton<ICalculateService, CalculateService>();
 builder.Services.AddScoped<IProductsApplication, ProductsApplication>();
-builder.Services.AddRepositoriesExt();
-
-
+builder.Services.AddPersistenceExt(builder.Configuration);
 
 
 builder.Services.AddValidatorsFromAssemblyContaining<ApplicationAssembly>();
@@ -45,24 +33,19 @@ builder.Services.AddSingleton<AppMetrics>();
 builder.Services.AddVersioningExt();
 
 
-
-
 builder.Services.AddExceptionHandler<UserFriendlyExceptionHandler>().AddExceptionHandler<BusinessExceptionHandler>()
     .AddExceptionHandler<GlobalExceptionHandler>();
-
 
 
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
 
-
-
 app.UseExceptionHandler(options => { });
 
-app.AddProductEndpoints(app.AddVersionSetExt());
-app.AddVersionExampleEndpoints(app.AddVersionSetExt());
-app.AddVersionSetExt();
+var apiVersionSet = app.AddVersionSetExt();
+app.AddProductEndpoints(apiVersionSet);
+app.AddVersionExampleEndpoints(apiVersionSet);
 
 app.AddExceptionHandlerExampleEndpoint();
 app.AddMetricsEndpoints();
