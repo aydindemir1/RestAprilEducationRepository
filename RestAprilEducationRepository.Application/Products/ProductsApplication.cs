@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using RestAprilEducationRepository.Application.Products.Create;
 using RestAprilEducationRepository.Application.Products.GetList;
 using RestAprilEducationRepository.Application.Products.Update;
@@ -10,10 +11,28 @@ using System.Text;
 
 namespace RestAprilEducationRepository.Application.Products
 {
-    public class ProductsApplication(IProductRepository productRepository):IProductsApplication
+    public class ProductsApplication(
+         IProductRepository productRepository,
+         ILogger<ProductsApplication> logger,
+         ILoggerFactory loggerFactory) : IProductsApplication
     {
         public async Task<ApplicationResult<List<ProductDto>>> GetAll()
         {
+            //trace
+            //debug
+            // information
+            //warning
+            // error
+            // critical
+
+
+            logger.LogInformation("GetAll methodu çalıştı");
+
+            var loggerFromFactory = loggerFactory.CreateLogger("ProductsApplicationCategoryName");
+
+            loggerFromFactory.LogInformation("GetAll methodu çalıştı 2");
+
+
             var productList = await productRepository.GetAllAsync();
 
             var productsAsDto = productList.Select(product =>
@@ -103,5 +122,5 @@ namespace RestAprilEducationRepository.Application.Products
         }
     }
 
-  
+
 }

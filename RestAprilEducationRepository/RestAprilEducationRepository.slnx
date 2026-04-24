@@ -15,4 +15,7 @@
   <Folder Name="/Presentation/">
     <Project Path="RestAprilEducationRepository.API.csproj" />
   </Folder>
+  <Project Path="../RestAprilEducationRepository.RazorPages/RestAprilEducationRepository.RazorPages.csproj" Id="57952de3-1c71-494b-af32-01b9568895e5" />
+  <Project Path="RestAprilEducationRepository.AppHost/RestAprilEducationRepository.AppHost.csproj" Id="4a83afb6-f6a2-4aba-bb21-3ec5b5583ab0" />
+  <Project Path="RestAprilEducationRepository.ServiceDefaults/RestAprilEducationRepository.ServiceDefaults.csproj" />
 </Solution>

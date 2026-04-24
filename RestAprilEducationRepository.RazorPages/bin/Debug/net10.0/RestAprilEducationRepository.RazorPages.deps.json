@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "RestAprilEducationRepository.RazorPages/1.0.0": {
+        "runtime": {
+          "RestAprilEducationRepository.RazorPages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestAprilEducationRepository.RazorPages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
