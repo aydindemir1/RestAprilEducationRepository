@@ -13,7 +13,7 @@ namespace RestAprilEducationRepository.API.Endpoints.Products
             group.MapGet("/{pageNumber:int}/{pageSize:int}",
                 async ([FromRoute] int pageNumber, [FromRoute] int pageSize,
                         [FromServices] IProductsApplication productsApplication) =>
-                    (await productsApplication.GetAll()).ToResult()).MapToApiVersion(1, 0);
+                    (await productsApplication.GetAllAsync()).ToResult()).MapToApiVersion(1, 0);
 
             return group;
         }

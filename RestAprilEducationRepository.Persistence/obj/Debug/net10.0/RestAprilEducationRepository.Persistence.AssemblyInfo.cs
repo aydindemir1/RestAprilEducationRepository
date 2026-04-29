@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestAprilEducationRepository.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e65951658c6b627fc36dd17a3806d9c3ff84b7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab8607a9ffcd1e2eb9701c488f4feff950bc21c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestAprilEducationRepository.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestAprilEducationRepository.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

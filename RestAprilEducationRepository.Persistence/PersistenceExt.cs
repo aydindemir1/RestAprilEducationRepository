@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using RestAprilEducationRepository.Application;
+using RestAprilEducationRepository.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -24,6 +25,12 @@ namespace RestAprilEducationRepository.Persistence
                             typeof(PersistenceAssembly).Assembly.GetName().Name);
                     });
             });
+
+
+            //UserManager<AppUser> => user ile ilgili işlemler
+            //RoleManager<AppRole> => role ile ilgili işlemler
+            //SignInManager<AppUser> => sign in ile ilgili işlemler
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
             var applicationAssembly = typeof(ApplicationAssembly).Assembly;
             var persistenceAssembly = typeof(PersistenceAssembly).Assembly;
