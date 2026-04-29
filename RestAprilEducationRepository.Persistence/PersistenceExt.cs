@@ -40,7 +40,7 @@ namespace RestAprilEducationRepository.Persistence
                     services.AddScoped(serviceType, implementationType);
             }
 
-            //services.AddScoped<IProductRepository, ProductRepositoryWithInMemory>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
 }

@@ -14,7 +14,8 @@ namespace RestAprilEducationRepository.Application.Products
     public class ProductsApplication(
         IProductRepository productRepository,
         ILogger<ProductsApplication> logger,
-        ILoggerFactory loggerFactory) : IProductsApplication
+        ILoggerFactory loggerFactory,
+        IUnitOfWork unitOfWork) : IProductsApplication
     {
         public async Task<ApplicationResult<List<ProductDto>>> GetAll()
         {
@@ -69,7 +70,7 @@ namespace RestAprilEducationRepository.Application.Products
                 CategoryId = request.CategoryId
             };
             await productRepository.AddAsync(product);
-
+            await unitOfWork.CommitAsync();
 
             return ApplicationResult<CreateProductResponse>.Success(new CreateProductResponse(product.Id));
         }
@@ -95,7 +96,7 @@ namespace RestAprilEducationRepository.Application.Products
             product.Price = request.Price;
 
             await productRepository.UpdateAsync(product);
-
+            await unitOfWork.CommitAsync();
             return ApplicationResult.Success();
         }
 
@@ -109,7 +110,7 @@ namespace RestAprilEducationRepository.Application.Products
             }
 
             await productRepository.DeleteAsync(product);
-
+            await unitOfWork.CommitAsync();
             return ApplicationResult.Success();
         }
     }
