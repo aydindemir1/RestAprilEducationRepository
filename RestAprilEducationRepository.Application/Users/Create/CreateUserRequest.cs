@@ -4,5 +4,5 @@ using System.Text;
 
 namespace RestAprilEducationRepository.Application.Users.Create
 {
-    public record CreateUserRequest(string UserName, string Email, string Password);
+    public record CreateUserRequest(string UserName, string Email, string Password, DateTime BirthDate);
 }
