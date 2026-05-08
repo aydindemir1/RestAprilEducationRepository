@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestAprilEducationRepository.RazorPages")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab8607a9ffcd1e2eb9701c488f4feff950bc21c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c3f8061cc51fc5a407763da5cf73be1f8c4575")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestAprilEducationRepository.RazorPages")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestAprilEducationRepository.RazorPages")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
