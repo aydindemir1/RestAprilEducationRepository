@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Application/">
+    <Project Path="RestAprilEducationRepository.Application/RestAprilEducationRepository.Application.csproj" Id="49b84c6f-0d7b-4d46-a746-6401b5843b38" />
+  </Folder>
+  <Folder Name="/src/Domain/">
+    <Project Path="RestAprilEducationRepository.Domain/RestAprilEducationRepository.Domain.csproj" Id="14c7a351-95bd-4e4b-b8ab-76ae2fc3700a" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/" />
+  <Folder Name="/src/Infrastructure/Broker/" />
+  <Folder Name="/src/Infrastructure/Caching/" />
+  <Folder Name="/src/Infrastructure/Logging/" />
+  <Folder Name="/src/Infrastructure/Persistence/">
+    <Project Path="RestAprilEducationRepository.Persistence/RestAprilEducationRepository.Persistence.csproj" Id="10df3e11-dfb2-4635-acb9-4902ad39f3d4" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="RestAprilEducationRepository/RestAprilEducationRepository.API.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="RestAprilEducationRepository.ApplicationIntegrationTest/RestAprilEducationRepository.ApplicationIntegrationTest.csproj" Id="e87c5ca9-1451-470a-86e6-e58716c82c76" />
+    <Project Path="RestAprilEducationRepository.DomainUnitTest/RestAprilEducationRepository.DomainUnitTest.csproj" Id="5c17d833-5e8c-4087-b0b7-45eeedf5459a" />
+  </Folder>
+  <Project Path="RestAprilEducationRepository.RazorPages/RestAprilEducationRepository.RazorPages.csproj" Id="57952de3-1c71-494b-af32-01b9568895e5" />
+  <Project Path="RestAprilEducationRepository/RestAprilEducationRepository.AppHost/RestAprilEducationRepository.AppHost.csproj" Id="4a83afb6-f6a2-4aba-bb21-3ec5b5583ab0" />
+  <Project Path="RestAprilEducationRepository/RestAprilEducationRepository.ServiceDefaults/RestAprilEducationRepository.ServiceDefaults.csproj" />
+</Solution>
