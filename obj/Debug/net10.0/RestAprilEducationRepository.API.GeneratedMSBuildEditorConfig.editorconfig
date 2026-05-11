@@ -1,0 +1,51 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RestAprilEducationRepository.API
+build_property.RootNamespace = RestAprilEducationRepository.API
+build_property.ProjectDir = C:\RestAprilEducationRepository\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\RestAprilEducationRepository
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/RestAprilEducationRepository/RestAprilEducationRepository.RazorPages/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UmVzdEFwcmlsRWR1Y2F0aW9uUmVwb3NpdG9yeS5SYXpvclBhZ2VzXFBhZ2VzXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/RestAprilEducationRepository/RestAprilEducationRepository.RazorPages/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UmVzdEFwcmlsRWR1Y2F0aW9uUmVwb3NpdG9yeS5SYXpvclBhZ2VzXFBhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/RestAprilEducationRepository/RestAprilEducationRepository.RazorPages/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UmVzdEFwcmlsRWR1Y2F0aW9uUmVwb3NpdG9yeS5SYXpvclBhZ2VzXFBhZ2VzXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/RestAprilEducationRepository/RestAprilEducationRepository.RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UmVzdEFwcmlsRWR1Y2F0aW9uUmVwb3NpdG9yeS5SYXpvclBhZ2VzXFBhZ2VzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/RestAprilEducationRepository/RestAprilEducationRepository.RazorPages/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UmVzdEFwcmlsRWR1Y2F0aW9uUmVwb3NpdG9yeS5SYXpvclBhZ2VzXFBhZ2VzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/RestAprilEducationRepository/RestAprilEducationRepository.RazorPages/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UmVzdEFwcmlsRWR1Y2F0aW9uUmVwb3NpdG9yeS5SYXpvclBhZ2VzXFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/RestAprilEducationRepository/RestAprilEducationRepository.RazorPages/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UmVzdEFwcmlsRWR1Y2F0aW9uUmVwb3NpdG9yeS5SYXpvclBhZ2VzXFBhZ2VzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-bbn7y33l5y
